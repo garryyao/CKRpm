@@ -1,0 +1,18 @@
+h2. Brief
+
+RubyGems-like remote package manager for CKEditor/CKFinder to install plugins/skins/themes from a central repository.
+
+h2. Install
+
+# checkout CKRpm into {CKEDITOR}/_dev/ckrpm/
+# cd {CKEDITOR}/_dev/ckrpm/bin
+# plugin --help
+
+h2. Usage
+plugin [OPTIONS] COMMAND
+* list: lists all installed plugins
+* install: Install the named plugin(s). It will attempt a local installation and if that fails, it will attempt to download and install the most recent version of the plugin you want.
+* uninstall: Remove a locally installed plugin
+* search: List or query the availability of the named plugin(s)
+* help: displays usage information
+* -h --help: displays usage information (final option)
