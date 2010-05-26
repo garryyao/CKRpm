@@ -1,0 +1,50 @@
+{
+    "!": "This file is meant to be maintained as a centrally managed plugin catalog that may be downloaded from CKEditor plugin respository",
+    "version": 2,
+    "packages": {
+		"editingblock" : {
+			"name": "editingblock",
+			"description": "Multiple editing modes infrustructure",
+			"author": "CKSource"
+		},
+		"domiterator":
+		{
+			"name": "domiterator",
+			"description": "Block iterating utility",
+			"author": "CKSource"
+		},
+		"list": {
+			"name": "list",
+			"description": "HTML List functionality",
+			"author": "CKSource",
+			"dependencies" : [ "domiterator" ]
+		},
+		"toc" : {
+			"name": "toc",
+			"description": "Plugin creates table of contents from headings in document.",
+			"author": "Tobias Cudnik",
+			"packageUrl": "http://ckeditor.com/files/ckeditor_toc_plugin.zip",
+			"packageArchive": "zip",
+			"dependencies": [ "list" ]
+		},
+        "bespin": {
+			"name": "bespin",
+			"version" : ["0", "2"],
+			"description": "Mozilla bespin powers source mode",
+            "keywords": [
+                "bespin",
+				"editingblock",
+                "source",
+            ],
+            "author": {
+                "name": "Garry Yao",
+                "url": "http://github.com/garryyao/",
+                "email": "yaojun85@gmail.com"
+            },
+            "descriptorUrl": "http://github.com/garryyao/ckeditor-plugin-bespin/raw/master/package.json",
+            "packageUrl": "http://github.com/garryyao/ckeditor-plugin-bespin/zipball/master",
+            "packageArchive": "zip",
+            "dependencies": ["editingblock", "toc"]
+        }
+   }
+}
