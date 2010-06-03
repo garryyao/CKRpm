@@ -9,10 +9,13 @@ h2. Install
 # plugin --help
 
 h2. Usage
-plugin [OPTIONS] COMMAND
-* list: lists all installed plugins
-* install: Install the named plugin(s). It will attempt a local installation and if that fails, it will attempt to download and install the most recent version of the plugin you want.
-* uninstall: Remove a locally installed plugin
-* search: List or query the availability of the named plugin(s)
-* help: displays usage information
-* -h --help: displays usage information (final option)
+help [OPTIONS] COMMAND
+CKEditor/CKFinder plugins manager.
+  setup: Indexes local plugins that have no description file into catalog.
+  list: lists all installed plugins
+  install: Install the named plugin(s). It will attempt a local installation and if that fails, it will attempt to download and install the most recent version of the plugin you want.
+  uninstall: Remove a locally installed plugin
+  search: List or query the availability of the named plugin(s)
+  help: displays usage information
+ -h --help: displays usage information (final option)
+
