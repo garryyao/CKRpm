@@ -37,6 +37,51 @@
             ],
             "version": []
         },
+        "aspell": {
+            "name": "aspell",
+            "description": "Server side spell checker that uses the powerful GNU Aspell engine",
+            "author": {
+                "name": "keilaron"
+            },
+            "packageUrl": "http://cksource.com/forums/download/file.php?id=512",
+            "packageArchive": "zip",
+            "dependencies": [],
+            "version": []
+        },
+        "MediaEmbed": {
+            "name": "MediaEmbed",
+            "description": "Embed YouTube, Vimeo, etc. into CKEditor.",
+            "author": {
+                "name": "fluidbyte"
+            },
+            "packageUrl": "http://www.fluidbyte.net/assets/files/CK_Media_Embed.zip",
+            "packageArchive": "zip",
+            "dependencies": [],
+            "version": []
+        },
+        "geshi": {
+            "name": "geshi",
+            "description": "Syntax highlighter for CKEditor powered by GeSHi.",
+            "author": {
+                "name": "PkLab.net"
+            },
+            "packageUrl": "http://www.pklab.net/pagefiles/geshi/Geshi-Plugin-CKEditor-1.0.zip",
+            "packageArchive": "zip",
+            "dependencies": [],
+            "version": []
+        },
+        "highslide": {
+            "name": "highslide",
+            "description": "Image thumbnail viewer in CKEditor",
+            "author": {
+                "name": "Lajox",
+				"email" : "lajox@19www.com"
+            },
+            "packageUrl": "http://lajox.googlecode.com/files/Lajox-CKEditor3.x-highslide-D4-v1.0.0.zip",
+            "packageArchive": "zip",
+            "dependencies": [],
+            "version": ["1", "0"]
+        },
         "bespin": {
             "name": "bespin",
             "version": [
